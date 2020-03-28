@@ -1,0 +1,373 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  line-height: 1.2;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+ol,
+ul {
+  list-style: none;
+}
+form hr {
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.329);
+}
+*:focus {
+  outline: none;
+}
+.main {
+  width: fit-content;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  color: #fff;
+  min-width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  min-height: 100%;
+  margin-bottom: 0px;
+  background: #00000075;
+}
+#myVideo {
+  position: fixed;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  text-align: center;
+}
+.header h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-size: 6.2rem;
+  font-weight: bold;
+}
+slogan {
+  font-size: 2rem;
+  padding-top: 0px;
+}
+.call_to_action {
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.3;
+  font-weight: 500;
+  margin-top: 60px;
+}
+
+#add_space {
+  margin-bottom: 50px;
+}
+
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadein 3s ease-in; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s ease-in; /* Firefox < 16 */
+  -ms-animation: fadein 3s ease-in; /* Internet Explorer */
+  -o-animation: fadein 3s ease-in; /* Opera < 12.1 */
+  animation: fadein 3s ease-in;
+  animation-fill-mode: forwards;
+}
+.fadeOut {
+  opacity: 1;
+  -webkit-animation: fadeout 3s ease-out; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeout 3s ease-out; /* Firefox < 16 */
+  -ms-animation: fadeout 3s ease-out; /* outternet Explorer */
+  -o-animation: fadeout 3s ease-out; /* Opera < 12.1 */
+  animation: fadeout 3s ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 10s;
+}
+.fast_fadeIn {
+  opacity: 0;
+  -webkit-animation: fadein 1s ease-in; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s ease-in; /* Firefox < 16 */
+  -ms-animation: fadein 1s ease-in; /* Internet Explorer */
+  -o-animation: fadein 1s ease-in; /* Opera < 12.1 */
+  animation: fadein 1s ease-in;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+}
+
+.form {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form * {
+  margin-top: 10px;
+}
+
+.form div small {
+  font-size: 14px;
+}
+
+.form div {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+.form p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.form label {
+  flex: 1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+}
+.form input {
+  flex: 4;
+  padding: 15px;
+  padding-left: 25px;
+  border: 0;
+  border-radius: 50px 0 0px 50px;
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+  font-weight: 500;
+  font-size: 14px;
+}
+.form input:focus {
+  border: 0 !important;
+}
+.form button {
+  font-weight: 700;
+  flex: 2;
+  border: 0;
+  border-radius: 0px 50px 50px 0px;
+  padding: 15px 0 15px 0px;
+  background-color: #24b7a4;
+}
+.form button:hover {
+  border: 0;
+  outline: none;
+  font-weight: 700;
+  background: #20a291;
+  transform: background 5s;
+}
+.form span {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 15px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+/* .loading {
+  border-width: 1px;
+  border-style: dotted;
+  border-color: #fff069cb;
+  background: #eee27375;
+} */
+.success {
+  border-width: 1px;
+  border-style: dotted;
+  border-color: #20a291;
+  background: #20a2913f;
+}
+.error {
+  border-width: 1px;
+  border-style: dotted;
+  border-color: #a22020;
+  background: #a2202048;
+}
+.about {
+  width: 100%;
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: stretch;
+  font-size: 1.2em;
+  text-align: center;
+}
+.abt-hd {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 6px;
+  padding: 0px 0px 0px 0px;
+}
+.about div .my-card {
+  display: inline;
+  /* flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center; */
+}
+.hover {
+  padding: 10px;
+  align-items: flex-start;
+  align-self: stretch;
+  justify-self: center;
+}
+.hover:hover {
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 0px 50px 50px 50px;
+}
+@media screen and (max-width: 501px) {
+  .main {
+    margin-top: 40px;
+  }
+  .call_to_action {
+    margin-top: 35px;
+    font-size: 22px;
+  }
+  .about {
+    margin-top: -45px !important;
+  }
+  .header slogan {
+    font-size: 1.8em;
+    padding-top: 0px;
+  }
+  .header h1 {
+    font-weight: 800;
+    font-size: 5.8em;
+  }
+  .header p {
+    margin-top: 50px;
+  }
+  .fast_fadeIn {
+    animation-delay: 0s;
+  }
+  .form span {
+    font-size: 12px;
+  }
+  .form div {
+    width: 100%;
+  }
+}
+/* FADE IN */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* FADE OUT EFFECT */
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* Internet Explorer */
+@-ms-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

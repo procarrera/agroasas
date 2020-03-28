@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- COLE BINHO -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content=#333333 name=theme-color>
+    <link href=favicon.png rel=icon type=image/png>
+    <meta name="description"
+        content="O melhor lugar para comprar e vender produtos rurais. De asas ao seu agronegocio aqui!">
+    <meta name="keywords"
+        content="Agroasas, agronegocio, mercado, rural, comprar, vender, fertilizantes, sementes, mudas, animais, equipamento rural, trator">
+    <meta name="author" content="AgroAsas" class="svelte-18lucv8">
+    <!-- OPEN GRAPH -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Agroasas - comércio online de produtos agropecuários" />
+    <meta property="og:description"
+        content="O melhor lugar para comprar e vender produtos rurais. De asas ao seu agronegocio aqui!">
+    <meta property="og:site_name" content="Agroasas" />
+    <meta property="og:image" content="https://agroasas.s3.amazonaws.com/share.jpg" />
+    <link rel="stylesheet" href="/assets/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="/form.js"></script>
+    <title>Agroasas - comércio online de produtos agropecuários</title>
+</head>
+
+<body>
+    <!-- ===============      VIDEO BACKGROUND CONFIGURATION    ================= -->
+    <video id="myVideo" class="video" autoplay muted>
+        <source src="https://agroasas.s3.amazonaws.com/video.mp4" type="video/mp4" />
+        <img src="/assets/media/videoscreen.jpg">
+    </video>
+    <script>
+        document.getElementById("myVideo").playbackRate = 0.5;
+    </script>
+    <!-- ======================================================================= -->
+    <div class="container">
+        <div class="main">
+            <!-- HEADER DA PÁGINA -->
+            <div class="header">
+                <h1>
+                    <span style="color:#82C940; text-decoration:underline;">agro</span>
+                    <span style="color:#A3CEF1;">asas</span>
+                </h1>
+                <slogan><b>amplie a visibilidade do seu negócio</b></slogan>
+            </div>
+            <div class="call_to_action">
+                <p>somos uma plataforma online de
+                    comércio do agronegócio</p>
+                <p>aqui você anuncia seus
+                    produtos <b>sem pagar</b> por isso</p>
+                <p id="add_space"></p>
+                <p>cadastre-se e <b>garanta sua vaga!</b></p>
+            </div>
+            <!-- FORMULÁRIO -->
+            <form class="form" id="myform">
+
+                <div style=" max-width: 420px; text-align: center;">
+                    <input type="email" id="email" name="email" placeholder="seu e-mail ..." required
+                        oninvalid="this.setCustomValidity('Por favor, preencha com um e-mail válido.')"
+                        oninput="this.setCustomValidity('')" />
+                    <button id="submit" type="submit" class="btn btn-primary btn-sm">cadastrar</button>
+                </div>
+                <span id="status" class=""></span>
+                <p>Prometemos nunca enviar spam e e-mails desnecessários.</p>
+            </form>
+        </div>
+        <!-- SOBRE NÓS  -->
+        <div class="about">
+            <div class="col-md-3 col-sm-6 col-xs-12 hover">
+                <div class="my-card">
+                    <!-- <img src="/assets/media/icons/comercio.png" height="32" width="32"> -->
+                    <img src="/assets/media/icons/comercio.png" height="64" width="64">
+                    <h3 class="abt-hd">Mercado Online</h3>
+                </div>
+                <p>Promovemos o Comércio Online de <b>produtos agropecuários, insumos e maquinários</b>.</p>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 hover">
+                <div class="my-card">
+                    <!-- <img src="/assets/media/icons/info.png" height="64" width="64"> -->
+                    <img src="/assets/media/icons/info.png" height="64" width="64">
+                    <h3 class="abt-hd">Informações regionais</h3>
+                </div>
+                <p> Através da nossa rede facilitamos a <b>troca de informações entre produtores próximos</b> para
+                    ajudar na sua produção.
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 hover">
+                <div class="my-card">
+                    <img src="/assets/media/icons/sistema.png" height="64" width="64">
+                    <h3 class="abt-hd">Nosso Sistema</h3>
+                </div>
+                <p>Utilizamos o que há de mais atual em tecnologia de desenvolvimento.
+                    Uma plataforma <b>rápida</b>, <b>segura</b> e <b> eficiente</b>.
+                </p>
+            </div>
+        </div>
+        <footer class="sticky-bottom" style="text-align: center; margin-top: 20px;">
+            Copyright © 2020 - Todos os direitos reservados
+            <br><br>
+            Agroasas Comércio Online
+            <br>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

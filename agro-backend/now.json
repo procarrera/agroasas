@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [{ "src": "index.js", "use": "@now/node-server" }],
+  "routes": [
+    {
+      "src": "/register",
+      "dest": "/index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    }
+  ],
+    "env": {
+      "MONGO_URL": "@mongo_url"
+    }
+}
