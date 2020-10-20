@@ -1,24 +1,6 @@
-# **AGROASAS**
-
-**DYNAMIC LANDING PAGE FOR THE PROJECT**
-
-*CSS, HTML5, JavaScript, mongoDB, AWS, mongoDB Stitch*
-
-- *FFmpeg to reach the very best practices for background video usage* (file compressed from 12Mb to 795kb only)
-- *mongoDB Stitch integrated with SendGrid API*
-
-![screen](https://github.com/procarrera/files/blob/master/screen-agro.png)
-
-
 <div id="status" align="center">
         <img src="https://img.shields.io/badge/STATUS-PRODUCTION-brightgreen"/>
 </div>
-
-<br/><br/>
-<div id="header">
-        <div align="center">
-            <img id="logo" alt="Next Level Week" src="https://user-images.githubusercontent.com/53456120/96350502-73d90380-108c-11eb-8b7a-e8d37ba87a25.png" height="180px" />
-    </div>
     <br/> <br/>
     <div align="center">
       <a href="#project">Project</a>&nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp;
