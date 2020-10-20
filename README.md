@@ -1,7 +1,6 @@
 <div id="status" align="center">
         <img src="https://img.shields.io/badge/STATUS-PRODUCTION-brightgreen"/>
 </div>
-    <br/> <br/>
     <div align="center">
       <a href="#project">Project</a>&nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp;
       <a href="#stack">Stack</a>&nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp;
@@ -15,7 +14,7 @@
 <div id="about">
 
 ## { About }
-DYNAMIC LANDING PAGE FOR THE PROJECT
+DYNAMIC LANDING PAGE FOR THE PROJECT <br/>
 An amazing Fullscreen video background template, built with CSS, HTML and Javascript.
 - *FFmpeg to reach the very best practices for background video usage* (file compressed from 12Mb to 795kb only)
 - *mongoDB Stitch integrated with SendGrid API*
